@@ -197,7 +197,8 @@ section {
 }
 .name {
   font-weight: 800;
-  font-size: clamp(54px, 12.5vw, 188px);
+  /* Mínimo de 44px: a fonte Syne é larga e "Castillo" não pode ser cortado em telas de 320px. */
+  font-size: clamp(44px, 12.5vw, 188px);
   line-height: 0.9;
   letter-spacing: -0.045em;
   margin-bottom: 36px;
