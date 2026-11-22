@@ -67,7 +67,7 @@ export const projetos = [
       { titulo: 'Documentação', texto: 'Requisitos, diagramas UML, manual técnico de 35 páginas e adequação à LGPD' },
     ],
     github: 'https://github.com/LuizCastillo/TCC-NeuroClass',
-    linkSite: null,
+    linkSite: 'https://tcc-neuroclass.vercel.app',
     telas: [
       { legenda: 'print da tela inicial' },
       { legenda: 'print do quiz' },
@@ -89,7 +89,7 @@ export const projetos = [
       { titulo: 'Responsivo', texto: 'Pensado primeiro para o celular do cliente' },
     ],
     github: null,
-    linkSite: null,
+    linkSite: 'https://castillofunilaria.vercel.app',
     telas: [
       { legenda: 'print da página inicial' },
       { legenda: 'print do antes e depois' },
