@@ -69,9 +69,9 @@ export const projetos = [
     github: 'https://github.com/LuizCastillo/TCC-NeuroClass',
     linkSite: 'https://tcc-neuroclass.vercel.app',
     telas: [
-      { legenda: 'print da tela inicial' },
-      { legenda: 'print do quiz' },
-      { legenda: 'print do resultado ou perfil' },
+      { legenda: 'Página inicial do NeuroClass', imagem: '/prints/neuroclass-inicio.webp' },
+      { legenda: 'Tela de início do quiz', imagem: '/prints/neuroclass-quiz.webp' },
+      { legenda: 'Página de conteúdo educativo', imagem: '/prints/neuroclass-conteudo.webp' },
     ],
   },
   {

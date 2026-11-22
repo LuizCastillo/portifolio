@@ -97,7 +97,11 @@ main {
   z-index: 10;
   padding-top: calc(env(safe-area-inset-top, 0px) + 14px);
   padding-bottom: 14px;
-  background: linear-gradient(180deg, rgba(8, 9, 14, 0.92), rgba(8, 9, 14, 0));
+  /* Fundo semitransparente com desfoque: o texto que rola por baixo não atrapalha a leitura do menu. */
+  background: rgba(8, 9, 14, 0.78);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
 }
 .top .wrap {
   display: flex;
