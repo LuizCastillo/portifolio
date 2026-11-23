@@ -88,12 +88,12 @@ export const projetos = [
       { titulo: 'SEO local', texto: 'Voltado para Vila Nova Cachoeirinha e Zona Norte' },
       { titulo: 'Responsivo', texto: 'Pensado primeiro para o celular do cliente' },
     ],
-    github: null,
+    github: 'https://github.com/luiz-castillo/Castillo-Funilaria-e-Pintura',
     linkSite: 'https://castillofunilaria.vercel.app',
     telas: [
-      { legenda: 'print da página inicial' },
-      { legenda: 'print do antes e depois' },
-      { legenda: 'print da versão no celular' },
+      { legenda: 'Página inicial da Castillo', imagem: '/prints/castillo-inicio.webp' },
+      { legenda: 'Seção de antes e depois', imagem: '/prints/castillo-antes-depois.webp' },
+      { legenda: 'Versão no celular', imagem: '/prints/castillo-celular.webp' },
     ],
   },
 ];

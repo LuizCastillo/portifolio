@@ -500,6 +500,7 @@ section {
   height: calc(100% + 32px);
   margin: -16px;
   object-fit: cover;
+  object-position: top; /* mostra o topo da imagem, bom para prints de celular */
 }
 
 /* ---------- Contato ---------- */
