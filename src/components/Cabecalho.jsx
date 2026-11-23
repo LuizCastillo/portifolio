@@ -14,7 +14,7 @@ export default function Cabecalho() {
     <header className="top">
       <div className="wrap">
         <a className="mark" href="#topo" onClick={(e) => navegar(e, 'topo')}>
-          {pessoa.nome}
+          {pessoa.nomeCurto}
         </a>
         <nav className="nav" aria-label="Seções">
           {menu.map((item) => (

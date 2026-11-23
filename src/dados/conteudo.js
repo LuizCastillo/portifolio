@@ -2,13 +2,14 @@
 // Para trocar um texto, um link ou uma imagem, basta editar este arquivo.
 
 export const pessoa = {
-  nome: 'Luiz Castillo',
-  linhasDoNome: ['Luiz', 'Castillo'],
+  nome: 'Luiz Fernando Castillo',
+  nomeCurto: 'Luiz Castillo', // usado no cabeçalho, para caber em telas pequenas
+  linhasDoNome: ['Luiz', 'Fernando', 'Castillo'],
   etiqueta: 'Técnico em Informática para Internet · Etec Albert Einstein',
   apresentacao:
     'Desenvolvedor full stack em formação, de São Paulo. Eu desenho a arquitetura, construo a interface e coloco no ar.',
   foto: '/foto-luiz.jpg',
-  textoDaFoto: 'Foto de Luiz Castillo sorrindo, de camisa azul clara',
+  textoDaFoto: 'Foto de Luiz Fernando Castillo sorrindo, de camisa azul clara',
 };
 
 // Itens do menu do cabeçalho (o "id" aponta para a seção da página).
@@ -22,7 +23,7 @@ export const menu = [
 export const sobre = {
   titulo: 'Front-end, back-end e documentação.',
   paragrafos: [
-    'Estou no 3º ano do curso Técnico em Informática para Internet (Infonet). No front-end eu trabalho com React, TypeScript e Tailwind. No back-end, com Python, FastAPI, Node.js e bancos de dados como PostgreSQL e Supabase.',
+    'Estou no 3º ano do curso Técnico em Informática para Internet (Infonet). No front-end eu trabalho com React, TypeScript e Tailwind. No back-end, com Python, FastAPI, Node.js e bancos de dados como MySQL, PostgreSQL e Supabase.',
     'Gosto de aprender na prática, transformar ideias em projetos e resolver problemas reais. Em cada projeto eu também escrevo a documentação: requisitos, diagramas e manual técnico.',
   ],
   quadro: [
@@ -36,12 +37,12 @@ export const sobre = {
 export const stack = {
   // Palavras que passam na faixa em movimento.
   faixa: [
-    'React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'Supabase', 'Vite',
+    'React', 'TypeScript', 'FastAPI', 'MySQL', 'PostgreSQL', 'Supabase', 'Vite',
     'Tailwind', 'Three.js', 'Figma', 'Vercel', 'Railway',
   ],
   grupos: [
     { titulo: 'Front-end', itens: ['React e TypeScript', 'Vite', 'Tailwind CSS', 'Framer Motion', 'Three.js'] },
-    { titulo: 'Back-end e dados', itens: ['Python e FastAPI', 'Node.js e Express', 'PostgreSQL', 'Supabase'] },
+    { titulo: 'Back-end e dados', itens: ['Python e FastAPI', 'Node.js e Express', 'MySQL', 'PostgreSQL', 'Supabase'] },
     { titulo: 'Deploy', itens: ['Vercel', 'Railway', 'Render', 'Git e GitHub'] },
     { titulo: 'Design e documentação', itens: ['Figma', 'DER e UML', 'Documento de requisitos', 'LGPD'] },
   ],
@@ -93,7 +94,7 @@ export const projetos = [
     telas: [
       { legenda: 'Página inicial da Castillo', imagem: '/prints/castillo-inicio.webp' },
       { legenda: 'Seção de antes e depois', imagem: '/prints/castillo-antes-depois.webp' },
-      { legenda: 'Versão no celular', imagem: '/prints/castillo-celular.webp' },
+      { legenda: 'Seção de contato', imagem: '/prints/castillo-contato.webp' },
     ],
   },
 ];

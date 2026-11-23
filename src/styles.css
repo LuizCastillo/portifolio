@@ -196,13 +196,13 @@ section {
 
 /* ---------- Início (hero) ---------- */
 .hero {
-  padding-top: calc(clamp(96px, 17vh, 190px) + env(safe-area-inset-top, 0px));
+  padding-top: calc(clamp(140px, 17vh, 190px) + env(safe-area-inset-top, 0px));
   padding-bottom: clamp(72px, 10vw, 120px);
 }
 .name {
   font-weight: 800;
   /* Mínimo de 44px: a fonte Syne é larga e "Castillo" não pode ser cortado em telas de 320px. */
-  font-size: clamp(44px, 12.5vw, 188px);
+  font-size: clamp(44px, 10.5vw, 160px);
   line-height: 0.9;
   letter-spacing: -0.045em;
   margin-bottom: 36px;
